@@ -59,12 +59,12 @@ public class ipcalc
         }
         
     }
-    public static int borrowedBits(int xx)
+    public static int borrowedBits(int host)
     {
         int borrowed = 2;
         double power=0;
     
-            while(power<xx)
+            while(power<host)
             {
                 power = Math.pow(2,borrowed);
                 borrowed++;
